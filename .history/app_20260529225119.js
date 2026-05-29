@@ -1,10 +1,5 @@
 
-// const DB = {
-//   get: (key) => { try { return JSON.parse(localStorage.getItem('rp_' + key)) || []; } catch { return []; } },
-//   set: (key, val) => { localStorage.setItem('rp_' + key, JSON.stringify(val)); },
-//   getObj: (key) => { try { return JSON.parse(localStorage.getItem('rp_' + key)) || {}; } catch { return {}; } },
-//   setObj: (key, val) => { localStorage.setItem('rp_' + key, JSON.stringify(val)); }
-// };
+
 
 let AppState = {
   tenants: DB.get('tenants'),
